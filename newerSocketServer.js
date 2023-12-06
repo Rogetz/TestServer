@@ -22,7 +22,7 @@ let groupsAttachedTo = []
 // data for each users sockets and doesn't need a db for now since It will be changing from time and I'll be deleting inactive sockets.
 let userSockets = new Map() // Identify by their userNames.
 
-let serverPort = 4003
+let serverPort = 80
 // I've added a middleware for testing for some auth data.
 // called once when the socket connects.
 // Note that I can also add middleware to each socket in the case of preventing access to some events by unauthorized sockets.
